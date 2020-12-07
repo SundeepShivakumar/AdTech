@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
   s.author           = { 'Sundeep Shivakumar' => 'sundeep@go-mmtcom' }
   s.source           = { :git => 'ssh://gerrit.mmt.com:29418/APP-iOS-AdTech', :tag => s.version.to_s }
  
-  s.ios.deployment_target = '12.0'
+  s.ios.deployment_target = '10.0'
   s.source_files = 'AdTech/*'
  
 end

@@ -2,7 +2,7 @@ Pod::Spec.new do |s|
 
   s.platform         = :ios
   s.name             = 'AdTech'
-  s.version          = '0.0.1'
+  s.version          = '0.0.2'
   s.summary          = 'AdTech Framework is built to serve Ad for the respective context.'
   s.requires_arc     = true
  

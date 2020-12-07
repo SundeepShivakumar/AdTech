@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
   s.author           = { 'Sundeep Shivakumar' => 'sundeep@go-mmtcom' }
   s.source           = { :git => 'ssh://gerrit.mmt.com:29418/APP-iOS-AdTech', :tag => s.version.to_s }
  
-  s.source_files = 'AdTech/**/*.{h,m}'
+  s.source_files = 'AdTech/**/*.{h,m,swift}'
   s.resource_bundles = {
      'AdTech' => ['AdTech/**/*.xib']
  }

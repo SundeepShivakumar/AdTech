@@ -12,7 +12,10 @@ Pod::Spec.new do |s|
   s.author           = { 'Sundeep Shivakumar' => 'sundeep@go-mmtcom' }
   s.source           = { :git => 'ssh://gerrit.mmt.com:29418/APP-iOS-AdTech', :tag => s.version.to_s }
  
-  s.ios.deployment_target = '10.0'
-  s.source_files = 'AdTech/*'
- 
+  s.source_files = 'AdTech/**/*.{h,m}'
+  s.resource_bundles = {
+     'AdTech' => ['AdTech/**/*.xib']
+ }
+
+ s.ios.deployment_target = '10.0'
 end
